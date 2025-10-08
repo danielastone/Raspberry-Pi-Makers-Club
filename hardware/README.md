@@ -1,0 +1,3 @@
+-wiring diagram
+-parts list
+-assembly instructions
