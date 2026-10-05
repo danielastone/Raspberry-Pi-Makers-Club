@@ -1,4 +1,3 @@
-```python name=tests/test_soil_moisture_model.py
 import unittest
 import numpy as np
 
@@ -82,15 +81,3 @@ class TestSoilMoistureModel(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-```
-**How to use:**  
-- Save this file as `simulation/test_soil_moisture_model.py` in your repo.
-- Run with `python -m unittest simulation/test_soil_moisture_model.py`.
-
-Tests included:
-- Surface evaporation reduces moisture, but never negative.
-- Percolation does not flow when at field capacity.
-- Excess water drains downward.
-- Sensor cell moisture remains within physical limits after simulation steps.
-
-Extend these tests for more scenarios or add plant/root/evaporation logic as needed.
